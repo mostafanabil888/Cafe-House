@@ -9,7 +9,7 @@ function Loading (){
   const [loading,setloading] = useState(false);
   useEffect(() => {
     const handlestart = (url) => (url !==router.asPath) && setloading(true);
-    const handlecomplete = (url) => (url === router.asPath) && setTimeout(() => {setloading(false)},200);
+    const handlecomplete = (url) => (url === router.asPath) && setTimeout(() => {setloading(false)},300);
       router.events.on('routeChangeStart', handlestart)
       router.events.on('routeChangeComplete', handlecomplete)
       router.events.on('routeChangeError', handlecomplete)
