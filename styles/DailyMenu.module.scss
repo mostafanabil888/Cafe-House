@@ -1,0 +1,43 @@
+.DailyMenu {
+    padding: 2rem 0;
+    h2 {
+        color: #c79c60;
+        font-family: 'Damion', cursive;
+        padding-left: 1rem;
+    }
+
+    .borderclass {
+        border: 1px solid #c79c60;
+    }
+
+    ol {
+        counter-reset: item;
+        padding: 1rem 3rem;
+
+        li::before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            color: #c79c60;
+            list-style: none;
+            font-weight: 700;
+        }
+    }
+
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../public/img/tm-brown-button.png');
+        width: 196px;
+        height: 46px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 16px;
+        color: #c79c60;
+
+        &:hover {
+            color: white;
+        }
+    }
+}

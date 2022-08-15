@@ -1,0 +1,32 @@
+.bestcoffe{
+    padding: 5rem 0;
+    h4{
+        color: #c79c60;
+        font-family: 'Damion', cursive;
+    }
+    h3{
+        margin: 2rem 0;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+         align-items: center;
+         background-image: url('../public/img/tm-brown-button.png');
+         width: 196px;
+         height: 46px;
+         text-transform: uppercase;
+         text-decoration: none;
+         font-size: 16px;
+         color: #c79c60;
+         margin: 1rem 0;
+         &:hover{
+             color: white;
+         }
+        }
+    .img{
+        border: 5px solid #fff;
+        border-radius: 50%;
+    }
+}

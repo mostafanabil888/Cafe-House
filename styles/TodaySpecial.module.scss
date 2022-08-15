@@ -1,0 +1,25 @@
+.TodaySpecial {
+    padding: 2rem 0;
+
+    h2 {
+        color: #c79c60;
+        font-family: 'Damion', cursive;
+        padding-left: 1rem;
+    }
+
+    .borderclass {
+        border: 1px solid #c79c60;
+    }
+
+    .imgbox {
+        position: relative;
+        .imgdetials {
+            position: absolute;
+            left: 0;
+            bottom: 5px;
+            color: white;
+            padding: 0.5rem 1rem;
+        }
+    }
+
+}

@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #e4e4e4 !important;
+  overflow-x: hidden;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+a{
+  color: inherit ;
+  text-decoration: none !important;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h3{
+  font-size: 28px;
+}
+ul,li{
+  list-style: none ;
+}
+
+.spinner-wrapper{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255);
+  z-index: 999;
+}
+.spinner{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0px auto;
+  animation: rotation .5s infinite linear;
+  border: 6px solid rgba(0,174,23,.15);
+
+}
+
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(365deg);}
+}

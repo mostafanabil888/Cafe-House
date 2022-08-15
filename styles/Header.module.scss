@@ -1,0 +1,35 @@
+.header{
+    background: #282726;
+    text-align: center;
+    padding: 6rem 0;
+    h2{
+        font-family: 'Damion', cursive;
+        color: white;
+        margin: 0 0.5rem ;
+        font-size: 3rem;
+    }
+    h1{
+        color: #c79c60;
+        font-size: 4rem;
+        margin: 1rem 0;
+    }
+    p{
+        color: #949494;
+    }
+    a{
+       display: flex;
+       justify-content: center;
+        align-items: center;
+        background-image: url('../public/img/tm-brown-button.png');
+        width: 196px;
+        height: 46px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: auto;
+        font-size: 16px;
+        color: #c79c60;
+        &:hover{
+            color: white;
+        }
+    }
+}

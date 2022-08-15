@@ -1,0 +1,26 @@
+.poularitems {
+    margin: 2rem 0;
+    padding: 2rem 0;
+    h2 {
+        color: #c79c60;
+        font-family: 'Damion', cursive;
+        padding-left: 1rem;
+    }
+    .borderclass {
+        border: 1px solid #c79c60;
+    }
+    h3 {
+        color: rgb(174, 174, 174);
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        font-family: 'Damion', cursive;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #c79c60;
+
+        &:hover {
+            color: #c79c60;
+        }
+    }
+
+
+}

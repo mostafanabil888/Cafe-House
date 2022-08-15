@@ -1,0 +1,53 @@
+.navbar{
+    padding: 1rem 0;
+    background: black;
+    color: white;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    .navbarbrand{
+        h1{
+            font-size: 1.275rem;
+            margin: 0 0.5rem;
+            color: #c79c60;
+            font-size: 32px;
+            font-family: 'Damion', cursive;
+        }
+    } 
+    .navbarcollapse{
+        background-color: rgba(0,0,0,0.9);
+        transition: all 0.2s linear;
+        z-index: 100;
+        .navbarnav{
+            margin-left: auto;
+            
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+                padding: 15px 15px 20px 30px;
+                transition: all 0.3s ease;
+                text-transform: capitalize;
+                &:hover{
+                    color: #c79c60;
+                }
+                &:focus{
+                    background-image: url('../public/img/nav-underline.png');
+                    background-size:4rem;
+                    background-position: 0% 100%;
+                    background-repeat: no-repeat;
+
+                }
+            }
+        }
+    }
+    button{
+        
+        background-color: #c79c60;
+        box-shadow: none;
+        &:focus{
+        box-shadow: none;
+        }
+    }  
+    
+}
